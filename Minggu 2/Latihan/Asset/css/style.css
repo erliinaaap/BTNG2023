@@ -1,0 +1,54 @@
+/* elemen selector */
+h1 {
+    font-weight: 600;
+    text-decoration: underline;
+}
+p {
+    font-size: 12px;
+    background-color: cornsilk;
+}
+span {
+    color: red;
+}
+/* id dan class selector */
+#box-konten {
+    box-shadow: 10px 13px 0px -1px grba(0,0,0,0.75);
+}
+.judul {
+    font-bold: 600;
+    font-style: italic;
+    text-decoration: underline;
+}
+/* Attribute selector */
+a[target] {
+    background-color: plum;
+}
+/* attribute value */
+[title="udinus"] {
+    color: green;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+[title="dncc"] {
+    font-size: 17px;
+    text-align: center;
+    margin: 0px;
+}
+
+/* Child selector */
+div > p {
+/* descendant selecor tanpa ">" */
+    color: brown;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0px;
+    text-align: center;
+}
+div {
+    text-align: center;
+}
+p {
+    text-align: center;
+}
